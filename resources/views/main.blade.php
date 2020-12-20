@@ -1,15 +1,16 @@
 @extends('layaut')
+
+@section('title')Главная@endsection
+
 @section('content')
+
     <main>
         <section class="py-5 text-center container">
-            <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пример альбома</font></font></h1>
-                    <p class="lead text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Что-то краткое и ведущее о коллекции ниже - ее содержание, создатель и т. Д. Сделайте ее короткой и увлекательной, но не слишком короткой, чтобы люди не пропустили ее полностью.</font></font></p>
-                    <p>
-                        <a href="#" class="btn btn-primary my-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Главный призыв к действию</font></font></a>
-                        <a href="#" class="btn btn-secondary my-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вторичное действие</font></font></a>
-                    </p>
+            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+                <div class="col-md-5 p-lg-5 mx-auto my-5">
+                    <h1 class="display-4 fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Забавный заголовок</font></font></h1>
+                    <p class="lead fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">И еще более остроумный подзаголовок в придачу. </font><font style="vertical-align: inherit;">Начните свои маркетинговые усилия с этого примера, основанного на маркетинговых страницах Apple.</font></font></p>
+                    <a class="btn btn-outline-secondary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скоро</font></font></a>
                 </div>
             </div>
         </section>

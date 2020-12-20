@@ -1,4 +1,7 @@
 @extends('layaut')
-@section('registr')
+
+@section('title')Регистрация@endsection
+
+@section('content')
 
 @endsection
