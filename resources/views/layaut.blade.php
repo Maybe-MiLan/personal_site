@@ -24,12 +24,10 @@
     @yield('content')
 </div>
 
-@if('registration')
     @yield('registr')
-@endif
-@if('authorization')
+
     @yield('auth')
-@endif
+
 <footer class="footer mt-auto py-3 bg-dark">
     <div class="container">
         <span class="text-white">Больше примеров на <a href="https://github.com/Maybe-MiLan">GutHab.com</a></span>
